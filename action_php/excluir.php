@@ -2,7 +2,7 @@
 
 	session_start();
 
-	require_once 'conexao_bd.php';
+	require_once 'conexao_bdPets.php';
 
 	if (isset($_POST['btn-excluir'])) {
 				
